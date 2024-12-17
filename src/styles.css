@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  font-size: 16px;
   background-image: url("/assets/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,12 +20,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.projects-button,
-.about-me-button {
-  display: block;
-  margin: 5px 0;
 }
 
 .projects-button {
@@ -68,16 +63,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin-top: 200px;
-}
-
-.project-card {
+  margin-top: 80px;
+}.project-card {
   max-width: 800px;
-  text-align: center;
-  font-size: 1.5rem;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #b9b6a5a9;
+  border: 2px solid #000; 
+  border-radius: 10px; 
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: rgba(255, 255, 255, 0.9); 
+  line-height: 1.8;
+  text-align: left; 
 }
 
 .project-card img {
@@ -85,26 +80,56 @@ body {
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
+  border: 1px solid black;
 }
 
 .project-card h2 {
   margin: 10px 0;
   font-size: 1.5rem;
 }
-.project-card h5 {
-  margin: 0px 0;
-  padding-bottom: 10px;
+.project-card h3,
+.project-card h4 {
+  margin-top: 10px;
   font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #000; 
+  padding-bottom: 5px;
 }
-.project-card ul,
-.project-card p {
+.project-card h5 {
+  font-size: 1.1rem;
+  
+  text-decoration: none;
+}
+.project-card p,
+.project-card ul {
+  margin-top: 10px;
+  color: #000;
   font-size: 1rem;
-  color: #000000;
+  
 }
+
+.project-card ul {
+  list-style-type: disc; 
+  margin-left: 20px;
+}
+
+.project-card iframe {
+  width: 100%;
+  height: auto;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  min-width: 600px;
+  min-height: 400px;
+}
+
+
+
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
+  transition: transform 0.5s ease;
   padding: 10px 20px;
   display: flex;
   justify-content: flex-start;
@@ -127,12 +152,15 @@ body {
   justify-content: center;
 }
 
-.header-left {
-  justify-content: flex-start;
-  padding-left: 150px;
+.header.move-left {
+  transform: translateX(-600px); 
 }
-.project-content h2 {
-  padding-left: 330px;
+.project-content h2,
+.about-me-content h2 {
+  padding-left: 0; 
+  margin-top: 20px; 
+  text-align: center; 
+  font-size: 2.3rem;
 }
 .home-link {
   text-decoration: none;
@@ -176,6 +204,74 @@ ul {
   list-style-type: none;
 }
 
+.about-me-content {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-me-content h3 {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.about-me-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-me-content a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.about-me-content a:hover {
+  text-decoration: underline;
+}
+.about-me-card {
+  max-width: 800px;
+  border: 2px solid #000; 
+  border-radius: 10px; 
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: rgba(255, 255, 255, 0.9); 
+  line-height: 1.8; 
+}
+
+.about-me-card h3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #000; 
+  padding-bottom: 5px;
+}
+
+.about-me-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.about-me-image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 20px auto; 
+  max-width: 300px; 
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 10px;
+}
+
+.about-me-image {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  border: 2px solid #000; 
+}
+
 @media (max-width: 844px) {
   .main-content {
     display: flex;
@@ -183,11 +279,11 @@ ul {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    text-decoration: none;
   }
   .header h2{
     
-    padding-top: 30px;
-    margin-right: 280px;
+    padding-top: 40px;
   }
 
   .projects-button,
@@ -198,7 +294,7 @@ ul {
   }
 
   .project-gallery {
-    margin-top: 240px;
+    margin-top: 40px;
     gap: 20px;
   }
 
@@ -206,7 +302,7 @@ ul {
     margin: 0 auto;
     text-align: center;
   }
-
+  }
   .header {
     flex-direction: column;
     justify-content: center;
@@ -219,7 +315,7 @@ ul {
   .header h1 {
     font-size: 2.5rem; 
     margin: 0; 
-    padding: 0 10px; 
+    padding: 10px;
     text-align: center; 
   }
 
@@ -234,10 +330,6 @@ ul {
     width: 25px; 
     height: 25px;
   }
-}
 
-.button-container {
-  gap: 20px;
-  margin: 20px 0;
-  margin-top: 200px;
-}
+
+

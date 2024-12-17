@@ -2,8 +2,8 @@ import React from "react";
 
 function NCNews() {
   return (
-    <main className="main-content">
-      <header className="header">
+    <main className="project-content">
+      <header className="header-ncNews">
         <h2>NC News</h2>
       </header>
       <section className="project-gallery">

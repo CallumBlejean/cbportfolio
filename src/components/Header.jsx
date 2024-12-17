@@ -1,11 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
+
 function Header() {
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
-  const isMobile = window.innerWidth <= 844;
-  const headerClass = isHomePage && !isMobile ? "header-center" : "header-left";
+  // const location = useLocation();
+  // const isHomePage = location.pathname === "/";
+  // const isMobile = window.innerWidth <= 844;
+  // const headerClass = isHomePage && !isMobile ? "header-center" : "header-left";
 
   return (
     <header className={`header header-center`}>

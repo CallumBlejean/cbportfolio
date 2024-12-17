@@ -5,8 +5,8 @@ import Header from "./components/Header";
 import Trippy from "./components/Trippy";
 import NCNews from "./components/NCNews";
 import Projects from "./components/Projects";
-import AboutMe from "./components/AboutMe"
-
+import AboutMe from "./components/AboutMe";
+import CanopyId from "./components/CanopyId";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/canopy-id" element={<CanopyId />} />
         <Route path="/trippy" element={<Trippy />} />
         <Route path="/nc-news" element={<NCNews />} />
       </Routes>

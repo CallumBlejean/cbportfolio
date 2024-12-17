@@ -2,8 +2,8 @@ import React from "react";
 
 function Trippy() {
   return (
-    <main className="main-content">
-      <header className="header">
+    <main className="project-content">
+      <header className="header-trippy">
         <h2>Trippy</h2>
       </header>
       <section className="project-gallery">

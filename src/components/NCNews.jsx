@@ -30,21 +30,10 @@ function NCNews() {
             <p>
               NC News aims to foster an interactive community for news readers.
               By providing a platform where users can engage with articles
-              through comments and votes, NC News turns passive reading into an
-              active experience. The app also empowers users to create their own
+              through comments and votes. The app also empowers users to create their own
               content, enhancing its value as a collaborative news hub.
             </p>
             <h4>Key Features</h4>
-            <section className="feature-section">
-              <h5>User Accounts</h5>
-              <ul>
-                <li>Secure sign-up and login system.</li>
-                <li>
-                  Personalized profiles where users can view and manage their
-                  activity history.
-                </li>
-              </ul>
-            </section>
             <section className="feature-section">
               <h5>Articles</h5>
               <ul>

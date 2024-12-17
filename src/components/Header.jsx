@@ -4,9 +4,11 @@ import { Link, useLocation } from "react-router-dom";
 function Header() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const isMobile = window.innerWidth <= 844;
+  const headerClass = isHomePage && !isMobile ? "header-center" : "header-left";
 
   return (
-    <header className={`header ${isHomePage ? "header-center" : "header-left"}`}>
+    <header className={`header header-center`}>
       
         <Link to="/" className="home-link">
         <h1>Callum Blejean</h1>

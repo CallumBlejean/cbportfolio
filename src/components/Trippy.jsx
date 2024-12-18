@@ -17,6 +17,11 @@ function Trippy() {
           ></iframe>
         </div>
         <div className="project-card">
+          <section className="repo-links">
+          <a href="https://github.com/markw53/backend-for-trippy">Backend Repo</a> <img src="/assets/github-mark.png" alt="GitHub" className="repo-page-icon" />  <a href="https://github.com/markw53/trippy">Frontend Repo</a>
+          </section>
+        </div>
+        <div className="project-card">
           <section className="project-details">
             <h4>Overview</h4>
             <p>

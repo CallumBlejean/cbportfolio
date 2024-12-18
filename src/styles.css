@@ -9,7 +9,14 @@ body {
   background-attachment: fixed;
   background-position: center;
 }
-
+.repo-links {
+  text-decoration: none;
+}
+.repo-page-icon {
+  max-width: 40px;
+  max-height: 40px;
+  vertical-align: middle;
+}
 .main-content {
   padding: 20px;
   font-family: Arial, sans-serif;

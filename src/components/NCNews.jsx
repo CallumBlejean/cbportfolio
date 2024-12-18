@@ -17,6 +17,12 @@ function NCNews() {
           ></iframe>
         </div>
         <div className="project-card">
+          <section className="repo-links">
+          <a href="https://github.com/CallumBlejean/be-nc-news">Backend Repo</a> <img src="/assets/github-mark.png" alt="GitHub" className="repo-page-icon" />  <a href="https://github.com/CallumBlejean/fe-nc-news">Frontend Repo</a>
+          </section>
+        </div>
+        
+        <div className="project-card">
           <section className="project-details">
             <h4>Overview</h4>
             <p>

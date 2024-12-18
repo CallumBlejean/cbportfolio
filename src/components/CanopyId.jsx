@@ -17,9 +17,14 @@ function CanopyId() {
           ></iframe>
         </div>
         <div className="project-card">
+          <section className="repo-links">
+          <a href="-">Backend Repo</a> <img src="/assets/github-mark.png" alt="GitHub" className="repo-page-icon" />  <a href="-">Frontend Repo</a>
+          </section>
+        </div>
+        <div className="project-card">
           <section className="project-details">
             <h4>Overview</h4>
-            <p>
+            {/* <p>
               <strong>CanopyId</strong> text
             </p>
             <h4>Purpose</h4>
@@ -96,11 +101,11 @@ function CanopyId() {
               <p>
                 text
               </p>
-            </section>
+            </section> */}
             <footer className="features-conclusion">
               <h5>Conclusion</h5>
               <p>
-                text
+                In progress. In progress. In progress. In progress. In progress. In progress. In progress. 
               </p>
             </footer>
           </section>

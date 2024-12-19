@@ -278,7 +278,9 @@ ul {
   border-radius: 10px; 
   border: 2px solid #000; 
 }
-
+.not-found {
+text-align: center;
+}
 @media (max-width: 844px) {
   .main-content {
     display: flex;

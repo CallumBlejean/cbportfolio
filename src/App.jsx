@@ -7,6 +7,7 @@ import NCNews from "./components/NCNews";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import CanopyId from "./components/CanopyId";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/canopy-id" element={<CanopyId />} />
         <Route path="/trippy" element={<Trippy />} />
         <Route path="/nc-news" element={<NCNews />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

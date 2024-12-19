@@ -18,7 +18,7 @@ function AboutMe() {
         <div className="about-me-card">
           <div className="about-me-intro">
             <p>
-              Hi, I’m <strong>Callum Blejean</strong>, a junior software developer with a passion for creating efficient and impactful solutions. With over a decade of experience in arboriculture, I’ve cultivated a strong foundation in <strong>leadership</strong>, <strong>teamwork</strong>, and <strong>risk management</strong>, which I now apply to my work in software development.
+              Hi, I’m <strong>Callum Blejean</strong>, a junior software developer with a passion for working on interesting problems and finding efficient solutions. With over a decade of experience in arboriculture, I’ve cultivated a strong foundation in <strong>leadership</strong>, <strong>teamwork</strong>, and <strong>risk management</strong>, which I now apply to my work in software development.
             </p>
             <p>
               As an arborist, I led teams in diverse, high-stakes environments, managing complex projects that required precise planning and execution. My role involved liaising with clients to understand their needs, communicating detailed project specifications to my team, and ensuring safety standards were met at every step. These experiences honed my problem-solving and adaptability skills, preparing me to excel in dynamic technical fields.

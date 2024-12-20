@@ -8,10 +8,12 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import CanopyId from "./components/CanopyId";
 import NotFound from "./components/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

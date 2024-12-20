@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function NCNews() {
+  const [galleryData, setGalleryData] = useState([]);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  useEffect(() => {
+    fetch("/assets/NCNews/galleryData.json")
+      .then((response) => response.json())
+      .then((data) => setGalleryData(data))
+      .catch((error) => console.error("Error loading gallery data", error));
+  }, []);
+
+  const openImage = (src) => {
+    setSelectedImage(src);
+  };
+
+  const closeImage = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <main className="project-content">
       <header className="header-ncNews">
@@ -8,20 +26,41 @@ function NCNews() {
       </header>
       <section className="project-gallery">
         <div className="project-card">
-          <h3>Video Demo</h3>
-          <iframe
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="NC News Demo Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
-        <div className="project-card">
-          <section className="repo-links">
-          <a href="https://github.com/CallumBlejean/be-nc-news">Backend Repo</a> <img src="/assets/github-mark.png" alt="GitHub" className="repo-page-icon" />  <a href="https://github.com/CallumBlejean/fe-nc-news">Frontend Repo</a>
+          <h3>Screenshot Gallery</h3>
+          <section className="screenshot-gallery">
+            {galleryData.map((item, index) => (
+              <div
+                className="gallery-item"
+                key={index}
+                onClick={() => openImage(item.src)}
+              >
+                <img src={item.src} alt={item.alt} className="gallery-image" />
+                <p className="gallery-description">{item.description}</p>
+              </div>
+            ))}
           </section>
         </div>
-        
+        {selectedImage && (
+          <div className="lightbox" onClick={closeImage}>
+            <img src={selectedImage} alt="Enlarged Image" className="lightbox-image" />
+          </div>
+        )}
+        <div className="project-card">
+          <section className="repo-links">
+            <a href="https://github.com/CallumBlejean/be-nc-news">
+              Backend Repo
+            </a>
+            <img
+              src="/assets/github-mark.png"
+              alt="GitHub"
+              className="repo-page-icon"
+            />
+            <a href="https://github.com/CallumBlejean/fe-nc-news">
+              Frontend Repo
+            </a>
+          </section>
+        </div>
+
         <div className="project-card">
           <section className="project-details">
             <h4>Overview</h4>
@@ -36,8 +75,8 @@ function NCNews() {
             <p>
               NC News aims to foster an interactive community for news readers.
               By providing a platform where users can engage with articles
-              through comments and votes. The app also empowers users to create their own
-              content, enhancing its value as a collaborative news hub.
+              through comments and votes. The app also empowers users to create
+              their own content, enhancing its value as a collaborative news hub.
             </p>
             <h4>Key Features</h4>
             <section className="feature-section">

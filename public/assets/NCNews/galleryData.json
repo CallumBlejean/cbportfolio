@@ -1,0 +1,37 @@
+[
+    {
+        "src": "/assets/NCNews/NCNews-home.png",
+        "alt": "NC News home page",
+        "description": "The NC News home page greets users with a welcoming layout and clear navigation. It serves as the entry point for browsing the latest articles, topics, and user information. The visually engaging banner and design ensure a user-friendly experience while directing attention to the core features of the platform."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-componentTree.png",
+        "alt": "NC News component tree",
+        "description": "This visual representation showcases the component hierarchy of the NC News React application. It demonstrates the modular structure, illustrating how components interact to create dynamic features, including article lists, detailed views, and forms for user interactions."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-wireFrame.png",
+        "alt": "NC News wire frame",
+        "description": "The NC News wireframe offers a high-level overview of the app’s design. It outlines the placement of elements like headers, navigation, and interactive components, providing a blueprint for the user interface. This foundation was crucial in planning the intuitive and visually appealing user experience."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-apiEndpoints.png",
+        "alt": "NC News API endpoints",
+        "description": "This screenshot documents the API endpoints used in NC News. It includes detailed descriptions of available queries, sorting options, and example responses, reflecting the backend's robust architecture that supports dynamic content and user interactions."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-viewArticles.png",
+        "alt": "NC News list of all articles",
+        "description": "The articles view displays a collection of all available articles with key details such as titles, authors, votes, and comment counts. Users can filter and sort articles based on criteria like topic or date, making it easier to find content that matches their interests."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-viewArticleId.png",
+        "alt": "NC News view Article by id",
+        "description": "This page provides a detailed view of a selected article, including its body, votes, and comments. Users can engage by voting or adding their own comments, fostering interaction and community engagement on the platform."
+    },
+    {
+        "src": "/assets/NCNews/NCNews-postArticle.png",
+        "alt": "NC News post article form",
+        "description": "The post article form allows users to contribute new articles by providing a title, body, topic, and optional image URL. This feature emphasizes user-generated content, but the placeholder message indicates temporary unavailability for submissions."
+    }
+]

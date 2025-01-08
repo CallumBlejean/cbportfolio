@@ -1,0 +1,42 @@
+[
+    {
+        "src": "/assets/Trippy/TrippyHomeScreen.png",
+        "alt": "Trippy login page with authentication options",
+        "description": "The login page serves as the entry point for users to access their trips. It offers login via username and password, along with options to sign up or continue as a guest, ensuring accessibility for all users."
+    },
+    {
+        "src": "/assets/Trippy/TrippyTrips.png",
+        "alt": "Trippy home page displaying trips",
+        "description": "The Trippy home page presents users with an overview of their planned trips. It includes visually engaging trip cards for easy access to different travel plans. The ‘Add Trip’ button allows users to create new trips."
+    },
+    {
+        "src": "/assets/Trippy/TrippyBarbados.png",
+        "alt": "Trippy trip details page with itinerary and possibility tabs",
+        "description": "This screen provides an in-depth view of a selected trip. Users can switch between Itinerary and Possibility tabs to manage planned and potential activities. The trip’s title, description, and timeline offer clarity, enhancing the experience of collaborative travel planning."
+    },
+    {
+        "src": "/assets/Trippy/TrippyItineraryItem.png",
+        "alt": "Trippy activity details page showing activity options",
+        "description": "The activity details page gives users a closer look at a planned activity, including an image, description, date, time, and the number of votes it has received. Users can interact by removing votes, deleting the activity, or moving it to the “Possibility” list."
+    },
+    {
+        "src": "/assets/Trippy/TrippyTripSettings.png",
+        "alt": "Trippy trip settings page allowing users to edit trip details",
+        "description": "The trip settings page allows users to customize their trip by updating the trip name, description, and cover image. This ensures that trip information remains accurate and visually appealing for all members."
+    },
+    {
+        "src": "/assets/Trippy/TrippyTripSettings2.png",
+        "alt": "Trippy trip settings page for managing members and deleting the trip",
+        "description": "This section of the trip settings page enables users to manage trip members by adding or removing participants. Additionally, users can delete the trip if necessary, ensuring full control over group coordination."
+    },
+    {
+        "src": "/assets/Trippy/TrippyChat.png",
+        "alt": "Trippy group chat interface for trips",
+        "description": "The chat page provides real-time messaging for trip members. When a new trip is created, a corresponding group chat is automatically generated. Users can switch between different trip chats and communicate within dedicated chat rooms, fostering collaboration and discussion about travel plans."
+    },
+    {
+        "src": "/assets/Trippy/TrippyProfile.png",
+        "alt": "Trippy user profile settings page",
+        "description": "The user profile page enables users to update their profile information, including their name, email, and profile picture. This ensures personalization and better user engagement."
+    }
+]

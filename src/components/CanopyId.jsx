@@ -18,13 +18,13 @@ function CanopyId() {
         </div>
         <div className="project-card">
           <section className="repo-links">
-            <a href="-">Backend Repo</a>{" "}
+            <a href="-">Backend</a>{" "}
             <img
               src="/assets/github-mark.png"
               alt="GitHub"
               className="repo-page-icon"
             />{" "}
-            <a href="-">Frontend Repo</a>
+            <a href="-">Frontend</a>
           </section>
         </div>
         <div className="project-card">

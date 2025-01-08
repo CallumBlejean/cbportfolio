@@ -52,7 +52,7 @@ function NCNews() {
         <div className="project-card">
           <section className="repo-links">
             <a href="https://github.com/CallumBlejean/be-nc-news">
-              Backend Repo
+              Backend 
             </a>{" "}
             <img
               src="/assets/github-mark.png"
@@ -60,7 +60,7 @@ function NCNews() {
               className="repo-page-icon"
             />{" "}
             <a href="https://github.com/CallumBlejean/fe-nc-news">
-              Frontend Repo
+              Frontend 
             </a>
           </section>
         </div>

@@ -1,13 +1,13 @@
 import React from "react";
 
 function CanopyId() {
-    return (
-      <main className="project-content">
+  return (
+    <main className="project-content">
       <header className="header-trippy">
         <h2>Canopy Id</h2>
       </header>
       <section className="project-gallery">
-      <div className="project-card">
+        <div className="project-card">
           <h3>Video Demo</h3>
           <iframe
             src="https://www.youtube.com/embed/d.;lpXcQ"
@@ -18,7 +18,13 @@ function CanopyId() {
         </div>
         <div className="project-card">
           <section className="repo-links">
-          <a href="-">Backend Repo</a> <img src="/assets/github-mark.png" alt="GitHub" className="repo-page-icon" />  <a href="-">Frontend Repo</a>
+            <a href="-">Backend Repo</a>{" "}
+            <img
+              src="/assets/github-mark.png"
+              alt="GitHub"
+              className="repo-page-icon"
+            />{" "}
+            <a href="-">Frontend Repo</a>
           </section>
         </div>
         <div className="project-card">
@@ -105,15 +111,15 @@ function CanopyId() {
             <footer className="features-conclusion">
               <h5>Conclusion</h5>
               <p>
-                In progress. In progress. In progress. In progress. In progress. In progress. In progress. 
+                In progress. In progress. In progress. In progress. In progress.
+                In progress. In progress.
               </p>
             </footer>
           </section>
         </div>
-        
       </section>
     </main>
-      )
-      }
+  );
+}
 
-      export default CanopyId
+export default CanopyId;

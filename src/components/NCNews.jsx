@@ -42,19 +42,23 @@ function NCNews() {
         </div>
         {selectedImage && (
           <div className="lightbox" onClick={closeImage}>
-            <img src={selectedImage} alt="Enlarged Image" className="lightbox-image" />
+            <img
+              src={selectedImage}
+              alt="Enlarged Image"
+              className="lightbox-image"
+            />
           </div>
         )}
         <div className="project-card">
           <section className="repo-links">
             <a href="https://github.com/CallumBlejean/be-nc-news">
               Backend Repo
-            </a>
+            </a>{" "}
             <img
               src="/assets/github-mark.png"
               alt="GitHub"
               className="repo-page-icon"
-            />
+            />{" "}
             <a href="https://github.com/CallumBlejean/fe-nc-news">
               Frontend Repo
             </a>
@@ -76,7 +80,8 @@ function NCNews() {
               NC News aims to foster an interactive community for news readers.
               By providing a platform where users can engage with articles
               through comments and votes. The app also empowers users to create
-              their own content, enhancing its value as a collaborative news hub.
+              their own content, enhancing its value as a collaborative news
+              hub.
             </p>
             <h4>Key Features</h4>
             <section className="feature-section">
@@ -96,7 +101,9 @@ function NCNews() {
             <section className="feature-section">
               <h5>Interactive Features</h5>
               <ul>
-                <li>Upvote or downvote articles and comments to express opinions.</li>
+                <li>
+                  Upvote or downvote articles and comments to express opinions.
+                </li>
                 <li>
                   Add comments to articles, with live updates and user
                   attribution.
@@ -110,7 +117,9 @@ function NCNews() {
             <section className="feature-section">
               <h5>Article Creation</h5>
               <ul>
-                <li>Create and post articles, selecting from predefined topics.</li>
+                <li>
+                  Create and post articles, selecting from predefined topics.
+                </li>
                 <li>
                   Include an image URL, title, and body for a rich content
                   experience.

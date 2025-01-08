@@ -305,8 +305,9 @@ text-align: center;
 .screenshot-gallery {
   display: flex;
   gap: 20px;
-  overflow-x: auto; 
+  overflow-x: auto;
   padding: 10px;
+  
 }
 
 .gallery-item {
@@ -319,6 +320,7 @@ text-align: center;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
 }
 
 .gallery-image {
@@ -384,8 +386,10 @@ text-align: center;
   }
 
   .project-card {
-    margin: 0 auto;
-    text-align: center;
+    width: 100vw; 
+    max-width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
   }
   .header {
     flex-direction: column;
@@ -424,5 +428,20 @@ text-align: center;
     min-width: 0; 
     max-width: 100%; 
   }
+  .screenshot-gallery {
+    overflow-x: scroll;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  }
 
+  .gallery-item {
+    width: 80vw; 
+    max-width: 320px;
+  }
+
+  
 }

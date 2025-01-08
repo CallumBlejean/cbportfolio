@@ -12,7 +12,7 @@ function Projects() {
       <section className="project-gallery">
       <div className="project-card">
         <Link to="/canopy-id">
-          <h5>Canopy ID - Learn to Identify Trees</h5>
+          <h5>Canopy ID - Learn to Identify Trees - (In Progress)</h5>
           
           <img
             src="/assets/CanopyId.png"

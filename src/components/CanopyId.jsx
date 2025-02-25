@@ -9,12 +9,7 @@ function CanopyId() {
       <section className="project-gallery">
         <div className="project-card">
           <h3>Video Demo</h3>
-          <iframe
-            src="https://www.youtube.com/embed/d.;lpXcQ"
-            title="Canopy ID Demo Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <p>Video Disabled.</p> 
         </div>
         <div className="project-card">
           <section className="repo-links">

@@ -66,7 +66,7 @@ function CanopyId() {
             <section className="feature-section">
               <h5>Technologies Used</h5>
               <ul>
-                <li><strong>Frontend:</strong> React, CSS</li>
+                <li><strong>Frontend:</strong> React, CSS, Firebase, Axios</li>
                 <li><strong>Backend:</strong> Node.js, Express, PostgreSQL</li>
               </ul>
             </section>

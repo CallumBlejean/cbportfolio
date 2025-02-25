@@ -3,15 +3,15 @@ import React from "react";
 function CanopyId() {
   return (
     <main className="project-content">
-      <header className="header-trippy">
-        <h2>Canopy Id</h2>
+      <header className="header-canopy">
+        <h2>Canopy ID</h2>
       </header>
       <section className="project-gallery">
         <div className="project-card">
           <h3>Video Demo</h3>
           <iframe
             src="https://www.youtube.com/embed/d.;lpXcQ"
-            title="Trippy Demo Video"
+            title="Canopy ID Demo Video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
@@ -30,89 +30,55 @@ function CanopyId() {
         <div className="project-card">
           <section className="project-details">
             <h4>Overview</h4>
-            {/* <p>
-              <strong>CanopyId</strong> text
+            <p>
+              <strong><a href="https://canopyid.co.uk/">CanopyId</a></strong> is a web application designed to help users develop their tree identification skills by recognizing key characteristics such as bark, buds, leaves, and seeds. It provides an interactive learning environment suitable for both arborists and nature enthusiasts.
             </p>
             <h4>Purpose</h4>
             <p>
-            text
+              To enable users to improve their tree identification abilities through interactive quizzes and personalized feedback, emphasizing consistency and accuracy.
             </p>
             <h4>Key Features</h4>
             <section className="feature-section">
               <h5>User Accounts</h5>
               <ul>
-                <li>text</li>
-                <li>
-                text
-                </li>
+                <li>Users can create and deactivate accounts.</li>
+                <li>Incorrect answers are logged to personalize future learning experiences.</li>
+                <li>Progress tracking feature planned for future implementation.</li>
               </ul>
             </section>
             <section className="feature-section">
-              <h5>text text</h5>
+              <h5>Interactive Quizzes</h5>
               <ul>
-                <li>
-                text
-                </li>
-                <li>
-                text
-                </li>
-                <li>text</li>
-                <li>
-                text
-                </li>
+                <li>Users can select quizzes based on tree type or difficulty level.</li>
+                <li>Incorrect attempts are stored to help identify areas needing improvement.</li>
               </ul>
             </section>
             <section className="feature-section">
-              <h5>text</h5>
+              <h5>Guided Learning</h5>
               <ul>
-                <li>text</li>
-                <li>text</li>
+                <li>A structured syllabus offering tailored lessons and feedback is in development.</li>
+                <li>Common errors are identified to help refine user skills.</li>
               </ul>
             </section>
             <section className="feature-section">
-              <h5>Collaborative Communication</h5>
+              <h5>Leaderboards</h5>
               <ul>
-                <li>text</li>
-                <li>
-                text
-                </li>
+                <li>Users can compete on leaderboards, with more variations to be added soon.</li>
+                <li>A weighted scoring system rewards consistent and accurate answers.</li>
               </ul>
             </section>
-            <section className="feature-section">
-              <h5>Rtext</h5>
-              <p>text</p>
-            </section>
-            <section className="feature-section">
-              <h5>Dynamic Maps</h5>
-              <p>
-               text
-              </p>
-            </section>
-            <section className="feature-section">
-              <h5>Guest text</h5>
-              <p>
-                text
-              </p>
-            </section>
+            
             <section className="feature-section">
               <h5>Technologies Used</h5>
               <ul>
-                <li><strong>Frontend:</strong> text3</li>
-                <li><strong>Backend:</strong>text2</li>
-                
+                <li><strong>Frontend:</strong> React, CSS</li>
+                <li><strong>Backend:</strong> Node.js, Express, PostgreSQL</li>
               </ul>
             </section>
-            <section className="feature-section">
-              <h5>User Experience Highlights</h5>
-              <p>
-                text
-              </p>
-            </section> */}
             <footer className="features-conclusion">
               <h5>Conclusion</h5>
               <p>
-                In progress. In progress. In progress. In progress. In progress.
-                In progress. In progress.
+                Development is ongoing, with future updates planned including a detailed guided learning experience, enhanced leaderboards, and comprehensive progress tracking.
               </p>
             </footer>
           </section>

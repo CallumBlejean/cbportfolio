@@ -30,14 +30,14 @@ function CanopyId() {
             </p>
             <h4>Purpose</h4>
             <p>
-              To enable users to improve their tree identification abilities through interactive quizzes and personalized feedback, emphasizing consistency and accuracy.
+              To enable users to improve their tree identification abilities through interactive quizzes and personalised feedback, emphasising consistency and accuracy.
             </p>
             <h4>Key Features</h4>
             <section className="feature-section">
               <h5>User Accounts</h5>
               <ul>
                 <li>Users can create and deactivate accounts.</li>
-                <li>Incorrect answers are logged to personalize future learning experiences.</li>
+                <li>Incorrect answers are logged to personalise future learning experiences.</li>
                 <li>Progress tracking feature planned for future implementation.</li>
               </ul>
             </section>

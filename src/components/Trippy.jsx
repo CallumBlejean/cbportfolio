@@ -66,7 +66,7 @@ function Trippy() {
             <h4>Overview</h4>
             <p>
               <strong>Trippy</strong> is a travel planning application designed
-              to simplify the complexities of organizing group trips. From
+              to simplify the complexities of organising group trips. From
               collaborative itineraries to real-time communication, Trippy helps
               travelers focus on enjoying their experiences rather than managing
               logistics. Whether planning a family vacation, a getaway with
@@ -75,10 +75,10 @@ function Trippy() {
             </p>
             <h4>Purpose</h4>
             <p>
-              The purpose of Trippy is to minimize the stress of trip planning.
+              The purpose of Trippy is to minimise the stress of trip planning.
               Group trips often involve coordinating schedules, preferences, and
               communication, which can lead to miscommunication and chaos.
-              Trippy was built to centralize the process, saving users time and
+              Trippy was built to centralise the process, saving users time and
               effort while reducing the likelihood of errors or
               misunderstandings.
             </p>
@@ -88,7 +88,7 @@ function Trippy() {
               <ul>
                 <li>Secure sign-up and login system.</li>
                 <li>
-                  Personalized profiles with the ability to edit details such as
+                  Personalised profiles with the ability to edit details such as
                   name, profile picture, and email address.
                 </li>
               </ul>
@@ -108,7 +108,7 @@ function Trippy() {
                   Add or remove group members to/from a trip effortlessly.
                 </li>
                 <li>
-                  Customize trip settings and manage activities, itineraries,
+                  Customise trip settings and manage activities, itineraries,
                   and possibilities within each trip.
                 </li>
               </ul>
@@ -135,7 +135,7 @@ function Trippy() {
                 </li>
                 <li>
                   Group messaging to share ideas, updates, and gossip in a
-                  private and organized manner.
+                  private and organised manner.
                 </li>
               </ul>
             </section>
@@ -149,7 +149,7 @@ function Trippy() {
             <section className="feature-section">
               <h5>Dynamic Maps</h5>
               <p>
-                Display trip destinations on maps, helping users visualize their
+                Display trip destinations on maps, helping users visualise their
                 plans and explore nearby areas.
               </p>
             </section>

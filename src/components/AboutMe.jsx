@@ -35,8 +35,8 @@ function AboutMe() {
               <li><strong>Testing:</strong> Jest, Supertest (TDD)</li>
               <li><strong>Back-end:</strong> SQL, PSQL, Seeding, Migrations</li>
               <li><strong>Front-end:</strong> React, React Native, HTML, CSS</li>
-              <li><strong>Tools:</strong> Cloudflare, Netlify, Lighthouse</li>
-              <li><strong>Methodologies:</strong> Agile, SCRUM, SDL</li>
+              <li><strong>Tools:</strong> Cloudflare, Netlify, Firebase</li>
+              <li><strong>Methodologies:</strong> Agile, SCRUM</li>
             </ul>
           </div>
 

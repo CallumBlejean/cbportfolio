@@ -8,8 +8,11 @@ function CanopyId() {
       </header>
       <section className="project-gallery">
         <div className="project-card">
-          <h3>Video Demo</h3>
-          <p>Video Disabled.</p> 
+          <img
+            src="/assets/CanopyHome.png"
+            alt="CanopyID Home Screenshot"
+            className="project-image"
+          /> 
         </div>
         <div className="project-card">
           <section className="repo-links">
@@ -26,7 +29,7 @@ function CanopyId() {
           <section className="project-details">
             <h4>Overview</h4>
             <p>
-              <strong><a href="https://canopyid.co.uk/">CanopyId</a></strong> is a web application designed to help users develop their tree identification skills by recognizing key characteristics such as bark, buds, leaves, and seeds. It provides an interactive learning environment suitable for both arborists and nature enthusiasts.
+              <strong><a href="https://canopyid.co.uk/">CanopyID</a></strong> is a web application designed to help users develop their tree identification skills by recognizing key characteristics such as bark, buds, leaves, and seeds. It provides an interactive learning environment suitable for both arborists and nature enthusiasts.
             </p>
             <h4>Purpose</h4>
             <p>

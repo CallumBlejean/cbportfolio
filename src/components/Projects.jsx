@@ -16,7 +16,7 @@ function Projects() {
           
           <img
             src="/assets/CanopyId.png"
-            alt="NC News Project Screenshot"
+            alt="CanopyID Project Screenshot"
             className="project-image"
           />
           </Link>
